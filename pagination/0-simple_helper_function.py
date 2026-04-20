@@ -5,10 +5,10 @@ Simple helper function for pagination
 
 def index_range(page, page_size):
     """
-    Returns a tuple of start index and end index
-    corresponding to pagination parameters.
+    Returns start and end index for pagination
     """
-    start_index = (page - 1) * page_size
-    end_index = page * page_size
 
-    return (start_index, end_index)
+    start = (page - 1) * page_size
+    end = page * page_size
+
+    return (start, end)
