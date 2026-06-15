@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 """This module contains an asynchronous function that waits for a random delay."""
 import asyncio
 import random
