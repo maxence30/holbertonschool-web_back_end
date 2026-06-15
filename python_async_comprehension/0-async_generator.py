@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-"""import des fonctions Asyincio"""
 
+"""import des fonctions Asyincio"""
 import asyncio
 import random
 
